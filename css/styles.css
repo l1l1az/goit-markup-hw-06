@@ -402,28 +402,6 @@ body {
     background-size: cover
 }
 
-@media screen and (min-resolution: 192dpi) {
-    .hero-page{
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-        url('../images/retina/people-office@2x.jpg');
-    }
-}
-
-@media screen and (min-resolution: 192dpi) {
-    .hero-page {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url('../images/retina/people-office-tablet@2x.jpg');
-    }
-}
-
-@media screen and (min-resolution: 192dpi) {
-    .hero-page {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url('../images/retina/people-office-mobile@2x.jpg');
-    }
-}
-
-
 .hero-txt {
     font-weight: 700;
     letter-spacing: 0.02em;
@@ -474,6 +452,13 @@ body {
     }
 }
 
+@media screen and (max-width: 767px) and (min-resolution: 192dpi) {
+    .hero-page {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url('../images/retina/people-office-mobile@2x.jpg');
+    }
+}
+
 @media screen and (min-width: 768px){
     .hero-page {
         background: #2e2f42;
@@ -496,6 +481,13 @@ body {
     }
 }
 
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    .hero-page {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url('../images/retina/people-office-tablet@2x.jpg');
+    }
+}
+
 @media screen and (min-width: 1158px) {
     .hero-page{
         max-width: 1440px;
@@ -509,6 +501,13 @@ body {
         font-size:56px;
         line-height: 1.07;
         margin-bottom: 48px;
+    }
+}
+
+@media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
+    .hero-page {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url('../images/retina/people-office@2x.jpg');
     }
 }
 
@@ -645,7 +644,6 @@ body {
 
 .team-page {
     background: #f4f4fd;
-    
 }
 
 .team-list {
@@ -783,6 +781,7 @@ body {
             box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
         }
 }
+
 
 /* =============== PORTFOLIO ============= */
 
