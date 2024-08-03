@@ -405,9 +405,24 @@ body {
 @media screen and (min-resolution: 192dpi) {
     .hero-page{
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-        url('../images/retina/people-office-tablet.jpg');
+        url('../images/retina/people-office@2x.jpg');
     }
 }
+
+@media screen and (min-resolution: 192dpi) {
+    .hero-page {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url('../images/retina/people-office-tablet@2x.jpg');
+    }
+}
+
+@media screen and (min-resolution: 192dpi) {
+    .hero-page {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url('../images/retina/people-office-mobile@2x.jpg');
+    }
+}
+
 
 .hero-txt {
     font-weight: 700;
